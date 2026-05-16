@@ -9,10 +9,6 @@ class Floci < Formula
       url "https://github.com/floci-io/floci-cli/releases/download/0.1.2/floci-darwin-arm64"
       sha256 "150eebac7189bf80566d8b19c97403c58e29754a8713a0ea178e4ac9b2b7b38e"
     end
-    on_intel do
-      url "https://github.com/floci-io/floci-cli/releases/download/0.1.2/floci-darwin-amd64"
-      sha256 "{{SHA256_DARWIN_AMD64}}"
-    end
   end
 
   on_linux do
