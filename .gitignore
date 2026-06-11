@@ -1,0 +1,17 @@
+# Editor / IDE
+.vscode/
+.idea/
+.ruby-lsp/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+
+# Ruby / Homebrew
+.bundle/
+vendor/bundle/
+*.gem
