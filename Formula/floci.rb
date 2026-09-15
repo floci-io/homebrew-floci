@@ -1,28 +1,28 @@
 class Floci < Formula
   desc "Official CLI for the Floci local AWS emulator"
   homepage "https://floci.io"
-  version "0.2.2"
+  version "0.2.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/floci-io/floci-cli/releases/download/0.2.2/floci-darwin-arm64"
-      sha256 "64e8b3d24647c367391a8a00346f8836a01fbd8175883aafac37caef5afbb270"
+      url "https://github.com/floci-io/floci-cli/releases/download/0.2.3/floci-darwin-arm64"
+      sha256 "0b236ca0bc1cd5c1803eab1c70fa0688894fc0ad7fb54b2cb0879b43a4abe823"
     end
     on_intel do
-      url "https://github.com/floci-io/floci-cli/releases/download/0.2.2/floci-darwin-amd64"
-      sha256 "9b48dcc06a67084fe4fc237149fa7d9792adbb537ea046b3e2513a5a7625445a"
+      url "https://github.com/floci-io/floci-cli/releases/download/0.2.3/floci-darwin-amd64"
+      sha256 "87d34a36daca4883666ba2f3b6e64cb9c7364c782eff53d19e86fe9564ab4164"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/floci-io/floci-cli/releases/download/0.2.2/floci-linux-arm64"
-      sha256 "ad39d001db4a70a71bbf397e25dcd078c75ef0ef8e28c7e732c2883ea0a3eaaf"
+      url "https://github.com/floci-io/floci-cli/releases/download/0.2.3/floci-linux-arm64"
+      sha256 "1c1578ae3bd8a0d3e833dd9004934ed80f72413c2c6a4c48c423d1c5634abb00"
     end
     on_intel do
-      url "https://github.com/floci-io/floci-cli/releases/download/0.2.2/floci-linux-amd64"
-      sha256 "9365bb8938208d09edf7689e79e8b5e72c2e962d2e391c0e6f5dc2a1b6281664"
+      url "https://github.com/floci-io/floci-cli/releases/download/0.2.3/floci-linux-amd64"
+      sha256 "f45902db2a1f09b9990048649065e8424332db9c0fdce780529192a019fb77c2"
     end
   end
 
